@@ -1,0 +1,107 @@
+body {
+	background-color: #298eea;
+	font-family: 'Roboto', helvetica, sans-serif;
+	padding-top: 60px;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.image {
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.image img {
+	height: 35px;
+}
+
+main {
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+
+.demo-form {
+	border-color: white;
+}
+
+
+
+button {
+	height: 55px;
+	border: 2px;
+	padding: 15px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	color: #565656;
+	margin: 0 auto 45px;
+	font-size: 35px;
+	line-height: 38px;
+	letter-spacing: 0;
+	padding-top: 50px;
+}
+
+input[type='email'],
+input[type='password'],
+button[type='signup'] {
+	background: #fcfcfc;
+	border: 2px solid #e7e7e7;
+	padding: 15px;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	font-size: 18px;
+	text-align: left;
+	height: auto;
+}
+
+button[type='signup'] {
+	color: white;
+	background: #15cd72;
+	border: 0;
+	font-weight: 22px;
+	text-align: center;
+	margin-bottom: 0;
+	height: auto;
+}
+
+button:hover[type='signup'] {
+	background-color: #0cb863;
+}
+
+.demo-form p {
+	text-align: center;
+}
+
+.demo-form p a {
+	font-size: 14px;
+	text-align: center;
+	color: #999;
+	margin-top: 10px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-top: 130px;
+}
+
+footer p a {
+	color: white;
+	font-weight: bold;
+}
+
