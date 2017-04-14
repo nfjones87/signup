@@ -1,11 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #298eea;
 	font-family: 'Roboto', helvetica, sans-serif;
 	padding-top: 60px;
-}
-
-body * {
-	box-sizing: border-box;
 }
 
 .image {
@@ -20,22 +20,17 @@ body * {
 }
 
 main {
-	width: 400px;
-	height: 500px;
 	margin: 0 auto;
-	padding-left: 40px;
-	padding-right: 40px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 3px;
 }
 
-.demo-form {
-	border-color: white;
+fieldset {
+	border: none;
+	padding: 0px;
 }
 
-
+fieldset input {
+	margin: 15px 0px;
+}
 
 button {
 	height: 55px;
@@ -56,11 +51,11 @@ h1 {
 
 input[type='email'],
 input[type='password'],
-button[type='signup'] {
+button[type='submit'] {
 	background: #fcfcfc;
 	border: 2px solid #e7e7e7;
 	padding: 15px;
-	width: 100%;
+	width: 320px;
 	display: block;
 	border-radius: 3px;
 	font-size: 18px;
@@ -68,7 +63,7 @@ button[type='signup'] {
 	height: auto;
 }
 
-button[type='signup'] {
+button[type='submit'] {
 	color: white;
 	background: #15cd72;
 	border: 0;
@@ -78,12 +73,22 @@ button[type='signup'] {
 	height: auto;
 }
 
-button:hover[type='signup'] {
+button:hover[type='submit'] {
 	background-color: #0cb863;
 }
 
+.demo-form {
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	width: 400px;
+}
 .demo-form p {
 	text-align: center;
+	padding-bottom: 40px;
 }
 
 .demo-form p a {
@@ -97,7 +102,6 @@ footer p {
 	text-align: center;
 	color: white;
 	font-weight: bold;
-	margin-top: 130px;
 }
 
 footer p a {
